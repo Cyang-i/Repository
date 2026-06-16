@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "com.cheny",
-    "module": "ui.compose",
+    "module": "ui-compose",
     "version": "1.0.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "ui.compose-1.0.0.aar",
-          "url": "ui.compose-1.0.0.aar",
+          "name": "ui-compose-1.0.0.aar",
+          "url": "ui-compose-1.0.0.aar",
           "size": 371500,
           "sha512": "7e20a322a3fcf6651f59a6411bb55067fbe2f030ef0aec9d540449c794e29a679d7b46702561e1b02df04ca612ca30df581de434ea39eb069ad882a8905f9f98",
           "sha256": "3102ca20479e74591f96c4a90a2904a7abd4fb17c66a62a7ad4bdb88c9b71bf0",
@@ -116,8 +116,8 @@
       ],
       "files": [
         {
-          "name": "ui.compose-1.0.0.aar",
-          "url": "ui.compose-1.0.0.aar",
+          "name": "ui-compose-1.0.0.aar",
+          "url": "ui-compose-1.0.0.aar",
           "size": 371500,
           "sha512": "7e20a322a3fcf6651f59a6411bb55067fbe2f030ef0aec9d540449c794e29a679d7b46702561e1b02df04ca612ca30df581de434ea39eb069ad882a8905f9f98",
           "sha256": "3102ca20479e74591f96c4a90a2904a7abd4fb17c66a62a7ad4bdb88c9b71bf0",
@@ -136,8 +136,8 @@
       },
       "files": [
         {
-          "name": "ui.compose-1.0.0-sources.jar",
-          "url": "ui.compose-1.0.0-sources.jar",
+          "name": "ui-compose-1.0.0-sources.jar",
+          "url": "ui-compose-1.0.0-sources.jar",
           "size": 45121,
           "sha512": "16aa3fd7c087322f9be99aa32f18a0cac95ac5e7b6388cb206b67a4fcafd166b742974ad42277b0f972c8deb413859781ea1af4030f65cd4d1c1c9b2ab61aaa4",
           "sha256": "d474d2d260bcb13d7ed71017031470d088962f8a5868195d5c56206465dad812",
