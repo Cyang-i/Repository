@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.cheny",
+    "module": "ui.compose",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui.compose-1.0.0.aar",
+          "url": "ui.compose-1.0.0.aar",
+          "size": 371500,
+          "sha512": "7e20a322a3fcf6651f59a6411bb55067fbe2f030ef0aec9d540449c794e29a679d7b46702561e1b02df04ca612ca30df581de434ea39eb069ad882a8905f9f98",
+          "sha256": "3102ca20479e74591f96c4a90a2904a7abd4fb17c66a62a7ad4bdb88c9b71bf0",
+          "sha1": "3ed55b602c98d7cf62908fd7779587ba60be584d",
+          "md5": "9a72503470739cfc6fdeb9810e4a31a2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.03.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.cheny",
+          "module": "kit",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui.compose-1.0.0.aar",
+          "url": "ui.compose-1.0.0.aar",
+          "size": 371500,
+          "sha512": "7e20a322a3fcf6651f59a6411bb55067fbe2f030ef0aec9d540449c794e29a679d7b46702561e1b02df04ca612ca30df581de434ea39eb069ad882a8905f9f98",
+          "sha256": "3102ca20479e74591f96c4a90a2904a7abd4fb17c66a62a7ad4bdb88c9b71bf0",
+          "sha1": "3ed55b602c98d7cf62908fd7779587ba60be584d",
+          "md5": "9a72503470739cfc6fdeb9810e4a31a2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui.compose-1.0.0-sources.jar",
+          "url": "ui.compose-1.0.0-sources.jar",
+          "size": 45121,
+          "sha512": "16aa3fd7c087322f9be99aa32f18a0cac95ac5e7b6388cb206b67a4fcafd166b742974ad42277b0f972c8deb413859781ea1af4030f65cd4d1c1c9b2ab61aaa4",
+          "sha256": "d474d2d260bcb13d7ed71017031470d088962f8a5868195d5c56206465dad812",
+          "sha1": "27366936a5f27da64d983d75e0f03bce8000feb2",
+          "md5": "62760eb3ed614d6c402a4b3020c7d99d"
+        }
+      ]
+    }
+  ]
+}
